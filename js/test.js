@@ -16,7 +16,7 @@ function food()
 var count=0;
 
 //code for food
-   if(document.getElementById("food").checked==true)
+   if(document.getElementById("sandwich").checked==true)
    {
        $("#foodtest").removeClass("hidden");
        $("#foodrightanswer").removeClass("hidden");
@@ -33,7 +33,7 @@ count++;
    }
     //code for destination
 
-    if(document.getElementById("dest").checked==true)
+    if(document.getElementById("tarkarli").checked==true)
     {
         $("#desttest").removeClass("hidden");
         $("#destrightanswer").removeClass("hidden");
@@ -50,7 +50,7 @@ count++;
     }
 
     //code for habit
-    if(document.getElementById("habit").checked==true)
+    if(document.getElementById("legs").checked==true)
     {
         $("#habittest").removeClass("hidden");
         $("#habitrightanswer").removeClass("hidden");
@@ -67,7 +67,7 @@ count++;
     }
 
     //code for actor
-    if(document.getElementById("actor").checked==true)
+    if(document.getElementById("nana").checked==true)
     {
         $("#actortest").removeClass("hidden");
         $("#actorrightanswer").removeClass("hidden");
@@ -86,7 +86,7 @@ count++;
 
 
     //code for worry
-  if(document.getElementById("worry").checked==true)
+  if(document.getElementById("weight").checked==true)
     {
         $("#worrytest").removeClass("hidden");
         $("#worryrightanswer").removeClass("hidden");
@@ -103,7 +103,7 @@ count++;
     }
 
     //code for Gift
-    if(document.getElementById("dest").checked==true)
+    if(document.getElementById("card").checked==true)
     {
         $("#gifttest").removeClass("hidden");
         $("#giftrightanswer").removeClass("hidden");
@@ -120,7 +120,7 @@ count++;
     }
 
     //code for pic
-    if(document.getElementById("dest").checked==true)
+    if(document.getElementById("pic").checked==true)
     {
         $("#pictest").removeClass("hidden");
         $("#picrightanswer").removeClass("hidden");
