@@ -4,12 +4,9 @@
 function food()
 {
 
-
-
     $("#foodtest").addClass("hidden");
-
     $("#desttest").addClass("hidden");
-    $("#actortest").removeClass("hidden");
+    $("#actortest").addClass("hidden");
     $("#habittest").addClass("hidden");
     $("#pictest").addClass("hidden");
     $("#gifttest").addClass("hidden");
@@ -21,7 +18,7 @@ var count=0;
        $("#foodtest").removeClass("hidden");
        $("#foodrightanswer").removeClass("hidden");
        $("#foodwronganswer").addClass("hidden");
-count++;
+       count++;
 
    }
 
@@ -45,8 +42,9 @@ count++;
     else
     {
         $("#desttest").removeClass("hidden");
-        $("#destrightanswer").addClass("hidden");
         $("#destwronganswer").removeClass("hidden");
+        $("#destrightanswer").addClass("hidden");
+
     }
 
     //code for habit
@@ -54,7 +52,7 @@ count++;
     {
         $("#habittest").removeClass("hidden");
         $("#habitrightanswer").removeClass("hidden");
-        $("#habittwronganswer").addClass("hidden");
+        $("#habitwronganswer").addClass("hidden");
         count++;
 
     }
@@ -64,6 +62,8 @@ count++;
         $("#habittest").removeClass("hidden");
         $("#habitrightanswer").addClass("hidden");
         $("#habitwronganswer").removeClass("hidden");
+
+
     }
 
     //code for actor
@@ -150,6 +150,5 @@ $("#clue").removeClass("hidden");
 
 function test()
 {
-    window.alert("in 111 test method")
     window.open('contact.html');
 }
