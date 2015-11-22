@@ -142,17 +142,14 @@ count++;
 if(count==7)
 {
 $("#clue").removeClass("hidden");
+
+
 }
 
+}
 
-
-
-
-
-
-
-
-
-
-
+function test()
+{
+    window.alert("in 111 test method")
+    window.open('contact.html');
 }
