@@ -54,7 +54,7 @@ count++;
     {
         $("#habittest").removeClass("hidden");
         $("#habitrightanswer").removeClass("hidden");
-        $("#destwronganswer").addClass("hidden");
+        $("#habittwronganswer").addClass("hidden");
         count++;
 
     }
